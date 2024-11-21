@@ -1,0 +1,37 @@
+input[type=text]{
+    border: 5px solid red;
+    background-color: orange;
+}
+input[type=password] {
+    border: 5px solid blue;
+    background-color: royalblue;
+}
+input[type=email] {
+    border: 5px solid green;
+    background-color: lime;
+}
+ul>li
+{
+    color: yellow
+}
+h2+p { 
+color:aquamarine;
+font-weight: bold;
+}
+a:hover {
+    color: red;
+    
+}
+li:nth-child(1) {
+   background-color: lime ;
+}
+.decorate::after{
+    content:"💵";
+}
+.decorate::before {
+    content: "💵";
+}
+p::first-letter {
+    color: red;
+    font-size: 200%;
+}
